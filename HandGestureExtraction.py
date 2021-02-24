@@ -16,24 +16,6 @@ score = 0
 img_counter = 500
 
 
-# pygame.event.wait()
-
-class Volume(object):
-    def __init__(self):
-        self.level = .5
-
-    def increase(self, amount):
-        self.level += amount
-        print(f'New level is: {self.level}')
-
-    def decrease(self, amount):
-        self.level -= amount
-        print(f'New level is: {self.level}')
-
-
-vol = Volume()
-
-
 
 # parameters
 cap_region_x_begin = 0.5  # start point/total width
