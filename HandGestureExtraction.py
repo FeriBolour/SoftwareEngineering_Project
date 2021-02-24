@@ -1,21 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Feb 24 15:04:55 2021
 
-@author: farsh
+"""
+Software Engineering Project 1
+
+@authors: Farshad Bolouri - Jorge Carlos - Davis Okuzor - Logan Campbell
+
 """
 
 import cv2
 import numpy as np
 import time
-
-# General Settings
-prediction = ''
-action = ''
-score = 0
-img_counter = 500
-
-
 
 # parameters
 cap_region_x_begin = 0.5  # start point/total width
