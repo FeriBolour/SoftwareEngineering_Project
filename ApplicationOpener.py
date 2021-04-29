@@ -48,7 +48,7 @@ gesture_names = {0: 'Fist',
                  3: 'Palm',
                  4: 'Peace'}
 
-model = load_model('C:/Users/farsh/Documents/GitHub/Hand Gesture Recognition/VGG_cross_validated.h5')
+model = load_model('VGG_cross_validated.h5')
 
 
 def predict_rgb_image(img):
